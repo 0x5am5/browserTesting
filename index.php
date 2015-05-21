@@ -15,8 +15,8 @@
       <input type="text" id="device" name="device"/>
       <br>
       <label for="browser">Browser (Optional)</label>
-      <input type="text" id="browser" name="browser"/>
-      <input type="checkbox" name="checkbox" id="checkbox" />
+      <input type="text" id="browser" name="browser">
+      <input type="checkbox" name="checkbox" id="checkbox">
       <input type="hidden" value="" name="window" id="widow-width">
       <br>
       <input type="submit">
