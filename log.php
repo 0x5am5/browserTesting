@@ -3,7 +3,7 @@
   $device = $_GET['device'];
   $browser = $_GET['browser'];
 
-  if ($GET['checkbox'] === false) {
+  if (!$_GET['checkbox']) {
     if (strlen($device)>0) { $message = "Device: " . $device . "\r\n"; }
     if (strlen($browser)>0) { $message = $message . "Browser: " . $browser . "\r\n"; }
     $message = $message . "Window Width: " . $_GET['window'] . "\r\n";

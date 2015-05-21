@@ -16,7 +16,7 @@
       <br>
       <label for="browser">Browser (Optional)</label>
       <input type="text" id="browser" name="browser"/>
-      <input type="checkbox" class="access" name="checkbox"/>
+      <input type="checkbox" name="checkbox" id="checkbox" />
       <input type="hidden" value="" name="window" id="widow-width">
       <br>
       <input type="submit">
